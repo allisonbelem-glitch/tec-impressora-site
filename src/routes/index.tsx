@@ -1,26 +1,40 @@
 import { createFileRoute } from "@tanstack/react-router";
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import ComoFunciona from "@/components/ComoFunciona";
+import DefeitosSection from "@/components/DefeitosSection";
+import DiferenciaisSection from "@/components/DiferenciaisSection";
+import MarcasSection from "@/components/MarcasSection";
+import DepoimentosSection from "@/components/DepoimentosSection";
+import FaqSection from "@/components/FaqSection";
+import CtaSection from "@/components/CtaSection";
+import Footer from "@/components/Footer";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Tec Impressora — Assistência Técnica de Impressoras em SP" },
+      { name: "description", content: "Conserto de impressoras em São Paulo com coleta grátis. Orçamento em 4h, garantia e 15+ anos de experiência. HP, Epson, Brother e mais." },
+      { property: "og:title", content: "Tec Impressora — Assistência Técnica de Impressoras" },
+      { property: "og:description", content: "Buscamos, consertamos e devolvemos sua impressora. Coleta grátis em SP." },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground">
+      <Header />
+      <HeroSection />
+      <ComoFunciona />
+      <DefeitosSection />
+      <DiferenciaisSection />
+      <MarcasSection />
+      <DepoimentosSection />
+      <FaqSection />
+      <CtaSection />
+      <Footer />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
