@@ -1,7 +1,7 @@
 const steps = [
   { num: "01", icon: "📞", title: "Pedido", desc: "Ligue ou mande WhatsApp." },
   { num: "02", icon: "🚚", title: "Coleta", desc: "Buscamos seu equipamento sob agendamento." },
-  { num: "03", icon: "🔧", title: "Reparo", desc: "Diagnóstico e orçamento. Só com sua aprovação." },
+  { num: "03", icon: "🔧", title: "Reparo", desc: "Após sua aprovação." },
   { num: "04", icon: "✅", title: "Devolução", desc: "Equipamento funcionando, com garantia." },
 ];
 
