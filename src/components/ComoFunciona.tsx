@@ -1,5 +1,5 @@
 const steps = [
-  { num: "01", icon: "📞", title: "Solicite", desc: "Ligue ou mande WhatsApp. Resposta em até 4h." },
+  { num: "01", icon: "📞", title: "Solicite", desc: "Ligue ou mande WhatsApp." },
   { num: "02", icon: "🚚", title: "Coletamos", desc: "Buscamos seu equipamento gratuitamente em SP." },
   { num: "03", icon: "🔧", title: "Consertamos", desc: "Diagnóstico e orçamento. Só com sua aprovação." },
   { num: "04", icon: "✅", title: "Entregamos", desc: "Equipamento funcionando, com garantia." },
