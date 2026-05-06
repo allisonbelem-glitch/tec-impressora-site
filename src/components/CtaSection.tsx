@@ -7,12 +7,12 @@ export default function CtaSection() {
           Precisa de Assistência Técnica?
         </h2>
         <p className="mt-3 text-muted-foreground">
-          Coleta grátis, orçamento em 4h, garantia. Fale conosco!
+          Entre em contato agora e agende sua coleta ou visita.
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5511940783341"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-primary-foreground font-semibold px-8 py-3.5 rounded-md text-sm hover:opacity-90 transition-opacity w-full sm:w-auto"
@@ -20,10 +20,10 @@ export default function CtaSection() {
             💬 Falar no WhatsApp
           </a>
           <a
-            href="tel:11999999999"
+            href="tel:011940783341"
             className="border border-border text-foreground font-semibold px-8 py-3.5 rounded-md text-sm hover:bg-secondary transition-colors w-full sm:w-auto"
           >
-            📞 (11) 99999-9999
+            📞 (11) 94078-3341
           </a>
         </div>
       </div>

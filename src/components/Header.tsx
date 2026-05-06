@@ -15,9 +15,9 @@ export default function Header() {
       {/* Top bar */}
       <div className="bg-primary text-primary-foreground text-xs py-1.5">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-          <span>📞 (11) 99999-9999 &nbsp; Seg-Sex 08-18h | Sáb 09-13h</span>
+          <span>📞 (11) 94078-3341 &nbsp; Seg-Sex 08-18h | Sáb 09-13h</span>
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5511940783341"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium hover:underline"
@@ -47,7 +47,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5511940783341"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-primary-foreground text-sm font-semibold px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
@@ -80,7 +80,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5511940783341"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-primary text-primary-foreground text-sm font-semibold px-4 py-2 rounded-md text-center"
