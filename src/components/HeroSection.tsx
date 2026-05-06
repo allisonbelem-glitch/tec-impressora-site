@@ -20,7 +20,7 @@ export default function HeroSection() {
         <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl font-bold uppercase leading-tight">
           Impressora com Defeito?
           <br />
-          <span className="text-primary">Buscamos, Consertamos e Devolvemos.</span>
+          <span className="text-primary">Coleta, Manutenção e Devolução.</span>
         </h1>
 
         <p className="mt-6 text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
