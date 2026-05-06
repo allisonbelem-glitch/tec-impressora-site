@@ -1,10 +1,7 @@
 const reviews = [
-  { text: "Atendimento excelente! Buscaram e devolveram funcionando no dia seguinte.", name: "Marcelo S.", role: "Contabilidade" },
-  { text: "Profissionais e transparentes. Orçamento justo.", name: "Fernanda L.", role: "Advocacia" },
-  { text: "10 anos como cliente. Sempre resolvem rápido.", name: "Roberto M.", role: "Gráfica" },
-  { text: "Consertaram minha HP que ninguém queria mexer!", name: "Ana P.", role: "Designer" },
-  { text: "Coleta grátis e garantia. Melhor de SP.", name: "Carlos T.", role: "Informática" },
-  { text: "Voltou melhor do que nova! Equipe competente.", name: "Juliana R.", role: "Clínica" },
+  { text: "O Allison é um Técnico de Impressora muito experiente, fez a manutenção da minha impressora super rápido e com profissionalismo, agradeço mais uma vez e recomendo a todos.", name: "Rafael Muniz" },
+  { text: "Atendimento rápido, conserto de impressora com agilidade, ótimos preços", name: "Ocivaldo Junior" },
+  { text: "Ótimo profissional, muito prestativo e resolveu o problema da minha impressora rapidamente! Recomendo!", name: "Beatriz Barros" },
 ];
 
 export default function DepoimentosSection() {
@@ -12,10 +9,10 @@ export default function DepoimentosSection() {
     <section id="depoimentos" className="py-20 bg-secondary/30">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="font-heading text-3xl md:text-4xl font-bold uppercase">
-          O Que Nossos Clientes Dizem
+          Depoimentos
         </h2>
         <div className="flex items-center justify-center gap-2 mt-3">
-          <span className="text-4xl font-bold text-foreground">4.9</span>
+          <span className="text-4xl font-bold text-foreground">5</span>
           <span className="text-primary text-xl">★★★★★</span>
         </div>
         <p className="text-sm text-muted-foreground mt-1">Avaliações no Google</p>
@@ -30,7 +27,7 @@ export default function DepoimentosSection() {
               <div className="text-primary text-sm mb-3">★★★★★</div>
               <p className="text-sm text-foreground italic">"{r.text}"</p>
               <p className="mt-4 text-xs text-muted-foreground">
-                <strong className="text-foreground">{r.name}</strong> — {r.role}
+                <strong className="text-foreground">{r.name}</strong>
               </p>
             </div>
           ))}
