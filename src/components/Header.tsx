@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const navLinks = [
   { label: "Como Atendemos", href: "#como-funciona" },
-  { label: "Defeitos", href: "#defeitos" },
   { label: "Diferenciais", href: "#diferenciais" },
   { label: "Marcas", href: "#marcas" },
   { label: "Depoimentos", href: "#depoimentos" },
