@@ -47,7 +47,6 @@ export default function HeroSection() {
           </a>
         </div>
 
-        <p className="mt-4 text-xs text-primary">🟢 Agentes online agora</p>
       </div>
     </section>
   );
