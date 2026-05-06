@@ -5,7 +5,6 @@ import ComoFunciona from "@/components/ComoFunciona";
 import DiferenciaisSection from "@/components/DiferenciaisSection";
 import MarcasSection from "@/components/MarcasSection";
 import DepoimentosSection from "@/components/DepoimentosSection";
-import FaqSection from "@/components/FaqSection";
 import CtaSection from "@/components/CtaSection";
 import Footer from "@/components/Footer";
 
@@ -30,7 +29,6 @@ function Index() {
       <DiferenciaisSection />
       <MarcasSection />
       <DepoimentosSection />
-      <FaqSection />
       <CtaSection />
       <Footer />
     </div>
