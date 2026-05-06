@@ -9,7 +9,7 @@ export default function ComoFunciona() {
   return (
     <section id="como-funciona" className="py-20 bg-secondary/30">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="font-heading text-3xl md:text-4xl font-bold uppercase">Como Funciona</h2>
+        <h2 className="font-heading text-3xl md:text-4xl font-bold uppercase">Como Atendemos</h2>
         <p className="mt-2 text-muted-foreground">Processo simples e rápido em 4 passos</p>
         <div className="mt-2 w-12 h-1 bg-primary mx-auto rounded-full" />
 
