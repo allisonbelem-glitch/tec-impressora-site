@@ -1,12 +1,4 @@
 export default function HeroSection() {
-  const stats = [
-    { icon: "🚚", value: "Coleta Grátis", label: "SÃO PAULO" },
-    { icon: "⏱️", value: "4h", label: "ORÇAMENTO RÁPIDO" },
-    { icon: "⭐", value: "4.9★", label: "GOOGLE REVIEWS" },
-    { icon: "🏆", value: "15+", label: "ANOS" },
-    { icon: "✅", value: "Garantia", label: "EM TODOS SERVIÇOS" },
-  ];
-
   return (
     <section className="relative py-20 md:py-32 overflow-hidden">
       {/* Subtle gradient overlay */}
@@ -28,19 +20,6 @@ export default function HeroSection() {
           Orçamento sem compromisso •
           Nota <strong className="text-foreground">5★</strong> no Google
         </p>
-
-        {/* Stats */}
-        <div className="mt-10 flex flex-wrap justify-center gap-6 md:gap-10">
-          {stats.map((s) => (
-            <div key={s.label} className="text-center">
-              <div className="text-2xl mb-1">{s.icon}</div>
-              <div className="text-lg font-bold text-foreground">{s.value}</div>
-              <div className="text-[10px] uppercase tracking-widest text-muted-foreground">
-                {s.label}
-              </div>
-            </div>
-          ))}
-        </div>
 
         {/* CTAs */}
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
