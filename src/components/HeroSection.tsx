@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="relative py-12 md:py-20 overflow-hidden">
+    <section className="relative py-8 md:py-16 overflow-hidden">
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent pointer-events-none" />
 
