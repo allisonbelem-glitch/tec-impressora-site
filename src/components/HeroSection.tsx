@@ -14,7 +14,7 @@ export default function HeroSection() {
 
       <div className="relative max-w-5xl mx-auto px-4 text-center">
         <div className="inline-block bg-primary/15 text-primary text-xs font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full mb-8">
-          🚚 Coleta e Entrega Grátis em São Paulo
+          Coleta e Entrega em Barueri
         </div>
 
         <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl font-bold uppercase leading-tight">
