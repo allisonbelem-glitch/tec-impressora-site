@@ -24,10 +24,9 @@ export default function HeroSection() {
         </h1>
 
         <p className="mt-6 text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-          Orçamento sem compromisso em até <strong className="text-foreground">4 horas</strong> •
-          Coleta grátis em toda SP •{" "}
           <strong className="text-foreground">15+ anos</strong> de experiência •
-          Nota <strong className="text-foreground">4.9★</strong> no Google
+          Orçamento sem compromisso •
+          Nota <strong className="text-foreground">5★</strong> no Google
         </p>
 
         {/* Stats */}
