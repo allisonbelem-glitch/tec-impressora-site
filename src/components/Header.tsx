@@ -5,7 +5,6 @@ const navLinks = [
   { label: "Quem Somos", href: "#diferenciais" },
   { label: "Marcas", href: "#marcas" },
   { label: "Depoimentos", href: "#depoimentos" },
-  { label: "FAQ", href: "#faq" },
 ];
 
 export default function Header() {
