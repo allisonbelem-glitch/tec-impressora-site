@@ -32,11 +32,15 @@ export const Route = createRootRoute({
       { title: "Tec Impressora — Assistência Técnica" },
       { name: "description", content: "Conserto de impressoras em São Paulo com coleta grátis." },
       { name: "author", content: "Tec Impressora" },
-      { property: "og:title", content: "Tec Impressora" },
-      { property: "og:description", content: "Assistência técnica de impressoras em SP." },
+      { property: "og:title", content: "Tec Impressora — Assistência Técnica" },
+      { property: "og:description", content: "Conserto de impressoras em São Paulo com coleta grátis." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Tec Impressora — Assistência Técnica" },
+      { name: "twitter:description", content: "Conserto de impressoras em São Paulo com coleta grátis." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/92bb747c-1e70-4bc4-a5dd-a03d57c635b2/id-preview-9cd73aba--2d0db6d4-6402-4bed-a4ae-268f8ad0cb23.lovable.app-1778108424108.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/92bb747c-1e70-4bc4-a5dd-a03d57c635b2/id-preview-9cd73aba--2d0db6d4-6402-4bed-a4ae-268f8ad0cb23.lovable.app-1778108424108.png" },
     ],
     links: [
       {
